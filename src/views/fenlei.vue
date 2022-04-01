@@ -48,7 +48,7 @@
               @click="handleshow(item)"
             >
               <el-col :span="6" style="cursor:pointer">
-                <el-image :src="item.shopPic" @click="handleImg1"></el-image>
+                <el-image :src="item.shopPic"></el-image>
                 <div style="text-align:center">
                   <p style="color:red;font-size:16px;text-align:center">
                     <b>￥{{ item.shopPrice }}.00 </b>
