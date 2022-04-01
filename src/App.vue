@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <!-- <div>
       <router-link to="/login"></router-link>
       <router-link to="/home"></router-link>
@@ -27,3 +28,8 @@ export default {
   margin-top: 60px;
 }
 </style>
+=======
+    <h1>hello</h1>
+  </div>
+</template>
+>>>>>>> df4767e17f27d3c215d1fc485ffdacf14c69844b

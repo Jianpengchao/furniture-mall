@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // //引入vue
 // import Vue from 'vue';
 // //引入vue-router
@@ -30,3 +31,21 @@
 
 // //抛出这个这个实例对象方便外部读取以及访问
 // export default router
+=======
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+
+Vue.use(VueRouter);
+
+const routes = [
+  
+];
+
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes,
+});
+
+export default router;
+>>>>>>> df4767e17f27d3c215d1fc485ffdacf14c69844b
