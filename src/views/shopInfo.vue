@@ -62,6 +62,9 @@ export default {
         this.shopList = res.data.data
       })
     },
+    handleChange (value) {
+      console.log(value)
+    },
     handleCart () {
       this.$router.push({ path: '/index/goods' })
     }
