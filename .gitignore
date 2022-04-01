@@ -1,9 +1,25 @@
 .DS_Store
+<<<<<<< HEAD
 node_modules/
 /dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+>>>>>>> df4767e17f27d3c215d1fc485ffdacf14c69844b
 
 # Editor directories and files
 .idea
@@ -12,3 +28,7 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
+=======
+*.sw?
+>>>>>>> df4767e17f27d3c215d1fc485ffdacf14c69844b
